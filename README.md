@@ -26,5 +26,9 @@ The repository includes weekly reports in PDF format covering the following topi
 - `week5.pdf`
 - `week6.pdf`
 - `week7.pdf`
+- `architecture_diagram.png` - System architecture diagram.
 - `screenshots/` - Directory containing relevant command screenshots.
-- `System Architecture and network system.drawio` - Architecture diagrams.
+- `System Architec cture and network system.drawio` - Original diagram source (XML).
+
+## System Architecture
+![System Architecture](architecture_diagram.png)
