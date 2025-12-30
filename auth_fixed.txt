@@ -1,0 +1,22 @@
+﻿gh.exe : 
+At line:1 char:19
++ ... ERM="dumb"; & 
+"C:\Program Files\GitHub 
+CLI\gh.exe" auth login 
+--web > ...
++                 ~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpe    cified: 
+(:String    ) [], 
+RemoteExce    ption
+    + FullyQualified    
+ErrorId : Native    
+CommandError
+ 
+! First copy your 
+one-time code: 9C20-2E38
+Open this URL to continue 
+in your web browser: https
+://github.com/login/device
