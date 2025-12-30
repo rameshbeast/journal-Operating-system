@@ -1,0 +1,74 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="vSBOKkny5K9F8M98IXkO">
+    <mxGraphModel dx="3400" dy="2839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-2" value="Admin Workstation ( client System)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="120" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-3" value="SSH Client Software" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w0IegfiQFVsb1mqiP5iP-2" vertex="1">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-4" value="Monitoring Tools&amp;nbsp;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w0IegfiQFVsb1mqiP5iP-2" vertex="1">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-5" value="&lt;br&gt;&lt;div&gt;Terminal Emulator&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Network Interface&amp;nbsp;&lt;/div&gt;&lt;div&gt;.IP: 192.168.56.101&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w0IegfiQFVsb1mqiP5iP-2" vertex="1">
+          <mxGeometry y="90" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-6" value="SSh (port 22) secure Remote Administration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="370" y="190" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="w0IegfiQFVsb1mqiP5iP-6" source="w0IegfiQFVsb1mqiP5iP-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-349.9999999999998" y="44.428571428571445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="w0IegfiQFVsb1mqiP5iP-6" source="w0IegfiQFVsb1mqiP5iP-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="44.428571428571445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-7" value=".encrypted Communication" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="w0IegfiQFVsb1mqiP5iP-6" vertex="1">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-8" value="Authentication Required" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="w0IegfiQFVsb1mqiP5iP-6" vertex="1">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-10" value="Private Virtual Network (Host-only )" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="590" width="1360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-11" value="Network Address : 192.168.56.101" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#333333;" parent="w0IegfiQFVsb1mqiP5iP-10" vertex="1">
+          <mxGeometry y="30" width="1360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-12" value="Subnet Mask : 255.255.255.0" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#333333;" parent="w0IegfiQFVsb1mqiP5iP-10" vertex="1">
+          <mxGeometry y="50" width="1360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-13" value="gateway (optional) :192.168.56.1" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#333333;" parent="w0IegfiQFVsb1mqiP5iP-10" vertex="1">
+          <mxGeometry y="80" width="1360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-19" value="Ubuntu Server 22.04 LTS ( Headless Server)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="950" y="120" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-20" value=". SSH Server (openSSh)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w0IegfiQFVsb1mqiP5iP-19" vertex="1">
+          <mxGeometry y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-21" value=". NO GUI ( command line only )" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w0IegfiQFVsb1mqiP5iP-19" vertex="1">
+          <mxGeometry y="60" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-22" value=".Service &amp;amp;&amp;nbsp; Application&lt;div&gt;. Network Interface&lt;/div&gt;&lt;div&gt;IP:192.168.56.101&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w0IegfiQFVsb1mqiP5iP-19" vertex="1">
+          <mxGeometry y="90" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.066;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="w0IegfiQFVsb1mqiP5iP-2" target="w0IegfiQFVsb1mqiP5iP-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.886;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="w0IegfiQFVsb1mqiP5iP-19" target="w0IegfiQFVsb1mqiP5iP-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0IegfiQFVsb1mqiP5iP-28" value="System Architecture Diagram ( both system&amp;nbsp; and&amp;nbsp; Network Connection )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-60" width="390" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
