@@ -4,6 +4,7 @@ This repository contains the weekly journal reports for the Operating System cou
 
 ## Student Information
 - **Name:** Ramesh Bist
+- **Student ID:** A00030110
 - **Project:** Operating System Journal
 
 ## Contents
