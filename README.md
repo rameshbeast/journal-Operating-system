@@ -27,6 +27,7 @@ The repository includes weekly reports in PDF format covering the following topi
 - `week6.pdf`
 - `week7.pdf`
 - `architecture_diagram.png` - System architecture diagram.
+- `Screen Recording 2025-12-29 020239.mp4` - Video demonstration of the system.
 - `screenshots/` - Directory containing relevant command screenshots.
 - `System Architec cture and network system.drawio` - Original diagram source (XML).
 
